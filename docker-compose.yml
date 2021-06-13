@@ -7,3 +7,9 @@ services:
       - "3032:3032"
       - "3256:3256"
     restart: always
+    networks:
+      - ergo-pool
+
+networks:
+  ergo-pool:
+    driver: bridge
