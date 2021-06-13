@@ -1,0 +1,9 @@
+version: "3.0"
+
+services:
+  ergo:
+    build: .
+    ports:
+      - "3032:3032"
+      - "3256:3256"
+    restart: always
