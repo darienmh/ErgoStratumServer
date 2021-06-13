@@ -3,6 +3,8 @@ version: "3.0"
 services:
   ergo:
     build: .
+    volumes:
+    - .:/app
     ports:
       - "3032:3032"
       - "3256:3256"

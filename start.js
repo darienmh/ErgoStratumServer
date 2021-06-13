@@ -19,7 +19,7 @@ var pool = Stratum.createPool({
 
     "coin": myCoin,
 
-    "address": "9fs2EgK8MD8ALEEjsE9oVFjexZdYFQoQWxBTPnxCdsU6ubxVLqX", //Address to where block rewards are given
+    "address": "9gL7ZxhzBe5Ry3SvofSKWzqrzboPXZZzgjxqPEqH6oN3nmmxdDk", //Address to where block rewards are given
 
     /* Block rewards go to the configured pool wallet address to later be paid out to miners,
        except for a percentage that can go to, for examples, pool operator(s) as pool fees or
